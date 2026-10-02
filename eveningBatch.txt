@@ -1,0 +1,325 @@
+# **Java Assessment Test (Core Java)**
+
+**Duration:** 90 Minutes
+**Total Marks:** 100
+
+---
+
+# Section A: Basic Java (18 Marks)
+
+### MCQs (1 Mark Each)
+
+**1. Which method is the entry point of a Java program?**
+
+a) start()
+
+b) init()
+
+c) main()
+
+d) run()
+
+---
+
+**2. Which keyword is used to create an object?**
+
+a) object
+
+b) create
+
+c) new
+
+d) this
+
+---
+
+**3. Which of the following is NOT a primitive data type?**
+
+a) int
+
+b) float
+
+c) String
+
+d) char
+
+---
+
+**4. Which operator is used to compare two values?**
+
+a) =
+
+b) ==
+
+c) :=
+
+d) !=
+
+---
+
+**5. Which loop executes at least one time?**
+
+a) for
+
+b) while
+
+c) do-while
+
+d) foreach
+
+---
+
+### Short Questions (3 Marks Each)
+
+6. Explain JDK, JRE, and JVM.
+
+7. Differentiate between Compiler and Interpreter.
+
+8. Explain all Java data types with examples.
+
+9. Difference between break and continue.
+
+---
+
+# Section B: OOP Concepts (22 Marks)
+
+### MCQs
+
+**11. Which OOP concept hides implementation details?**
+
+a) Encapsulation
+
+b) Inheritance
+
+c) Abstraction
+
+d) Polymorphism
+
+---
+
+**12. Which keyword refers to the current object?**
+
+a) this
+
+b) super
+
+c) self
+
+d) current
+
+---
+
+**13. Which keyword is used to inherit a class?**
+
+a) extends
+
+b) implements
+
+c) inherit
+
+d) super
+
+---
+
+**14. Which method can be overridden?**
+
+a) static
+
+b) final
+
+c) normal instance method
+
+d) private
+
+---
+
+### Short Questions (3 Marks Each)
+
+15. Explain Encapsulation with example.
+
+16. Explain Inheritance and its types.
+
+17. Difference between Method Overloading and Method Overriding.
+
+18. Difference between Interface and Abstract Class.
+
+19. Explain Constructor and Constructor Overloading.
+
+20. Explain this keyword and super keyword.
+
+---
+
+# Section C: Exception Handling (15 Marks)
+
+### MCQs
+
+**21. Which block always executes?**
+
+a) try
+
+b) catch
+
+c) finally
+
+d) throw
+
+---
+
+**22. Which keyword throws an exception manually?**
+
+a) throws
+
+b) throw
+
+c) exception
+
+d) catch
+
+---
+
+**23. Which exception occurs when dividing by zero?**
+
+a) IOException
+
+b) ArithmeticException
+
+c) SQLException
+
+d) NumberFormatException
+
+---
+
+### Short Questions
+
+24. Difference between Checked and Unchecked Exceptions.
+
+25. Explain try-catch-finally with example.
+
+26. Difference between throw and throws.
+
+27. Create a custom exception.
+
+
+# Section E: Multithreading (15 Marks)
+
+### MCQs
+
+**35. Which class is used to create a thread?**
+
+a) Thread
+
+b) Runnable
+
+c) Both A and B
+
+d) Process
+
+---
+
+**36. Which method starts a thread?**
+
+a) run()
+
+b) start()
+
+c) execute()
+
+d) begin()
+
+---
+
+**37. Which method pauses the current thread?**
+
+a) sleep()
+
+b) wait()
+
+c) notify()
+
+d) suspend()
+
+---
+
+### Short Questions
+
+38. Difference between Process and Thread.
+
+39. Difference between Thread class and Runnable interface.
+
+40. Explain Thread Life Cycle.
+
+41. Difference between wait(), notify(), and notifyAll().
+
+---
+
+# Section F: Java I/O Streams (15 Marks)
+
+### MCQs
+
+**42. Which package contains I/O classes?**
+
+a) java.io
+
+b) java.util
+
+c) java.lang
+
+d) java.sql
+
+---
+
+**43. Which stream reads bytes?**
+
+a) Reader
+
+b) InputStream
+
+c) Writer
+
+d) Scanner
+
+---
+
+**44. Which class is used to read text files line by line?**
+
+a) FileInputStream
+
+b) BufferedReader
+
+c) FileWriter
+
+d) OutputStream
+
+---
+
+### Short Questions
+
+45. Difference between Byte Stream and Character Stream.
+
+46. Difference between FileInputStream and FileReader.
+
+47. Explain Serialization and Deserialization.
+
+48. Explain BufferedReader.
+
+---
+
+# Programming Questions (15 Marks)
+
+### Q1 (5 Marks)
+
+Write a Java program to check whether a number is Prime or not.
+
+---
+
+### Q3 (5 Marks)
+
+Write a Java program demonstrating Method Overloading.
+
+---
+
+### Q4 (5 Marks)
+
+Write a Java program to create two threads using the Runnable interface.
+
+---

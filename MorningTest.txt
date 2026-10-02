@@ -1,0 +1,406 @@
+
+# Java Assessment Test
+
+**Duration:** 90 Minutes
+
+**Total Marks:** 90
+
+---
+
+# Section A: Core Java (15 Marks)
+
+### MCQs (1 mark each)
+
+**1. Which keyword is used to inherit a class?**
+
+a) implements
+
+b) extends
+
+c) inherit
+
+d) super
+
+---
+
+**2. Which collection stores unique values?**
+
+a) ArrayList
+
+b) LinkedList
+
+c) HashSet
+
+d) Vector
+
+---
+
+**3. Which exception is checked?**
+
+a) NullPointerException
+
+b) ArithmeticException
+
+c) IOException
+
+d) ArrayIndexOutOfBoundsException
+
+---
+
+**4. Which access modifier is most restrictive?**
+
+a) public
+
+b) protected
+
+c) default
+
+d) private
+
+---
+
+**5. What is the output?**
+
+```java
+String s="Java";
+System.out.println(s.length());
+```
+
+a) 3
+
+b) 4
+
+c) 5
+
+d) Error
+
+---
+
+### Short Questions (2 marks each)
+
+6. Define Encapsulation.
+
+7. Difference between == and equals().
+
+8. What is Method Overloading?
+
+9. Explain Constructor.
+
+10. Difference between Interface and Abstract Class.
+
+---
+
+# Section B: Advanced Java (10 Marks)
+
+### MCQs
+
+**11. JDBC stands for?**
+
+a) Java Database Connectivity
+
+b) Java Driver Connection
+
+c) Java Database Connector
+
+d) None
+
+---
+
+**12. Which package contains Servlet classes?**
+
+a) java.servlet
+
+b) javax.servlet
+
+c) java.http
+
+d) servlet.http
+
+
+### Short Questions
+
+13. Explain JDBC Architecture.
+
+14. Difference between Statement and PreparedStatement.
+
+15. Servlet Life Cycle.
+
+16. Difference between GET and POST.
+
+---
+
+# Section C: JSP (2marks)
+
+### MCQs
+
+17. JSP stands for?
+
+a) Java Server Page
+
+b) Java Servlet Page
+
+c) Java Simple Page
+
+d) Java Server Programming
+
+---
+
+18. Which object is implicit in JSP?
+
+a) request
+
+b) response
+
+c) session
+
+d) All of the above
+
+---
+
+# Section D: Hibernate (8 Marks)
+
+### MCQs
+
+19. Which annotation marks Primary Key?
+
+a) @Column
+
+b) @Id
+
+c) @Table
+
+d) @Generated
+
+---
+
+20. Which annotation is used for One-to-Many?
+
+a) @ManyToOne
+
+b) @OneToMany
+
+c) @JoinColumn
+
+d) @Entity
+
+---
+
+### Short Questions(3 marks each)
+
+21. Explain ORM.
+
+22. Explain Lazy Loading.
+
+---
+
+# Section E: Spring Framework (12 Marks)
+
+### MCQs
+
+23. IoC stands for?
+
+a) Inversion of Control
+
+b) Injection of Control
+
+c) Internal Object Creation
+
+d) None
+
+---
+
+24. Which annotation creates Bean automatically?
+
+a) @Bean
+
+b) @Component
+
+c) @Autowired
+
+d) @Service
+
+---
+
+### Short Questions
+
+25. Explain Dependency Injection.
+
+26. Difference between BeanFactory and ApplicationContext.
+
+27. What is Spring MVC?
+
+28. Explain @Autowired.
+
+29. Difference between @Component, @Service, and @Repository.
+
+---
+
+# Section F: Spring Boot (8 Marks)
+
+### MCQs
+
+30. Default Embedded Server?
+
+a) GlassFish
+
+b) WildFly
+
+c) Tomcat
+
+d) JBoss
+
+---
+
+31. Which annotation starts Spring Boot Application?
+
+a) @Configuration
+
+b) @SpringBootApplication
+
+c) @EnableAutoConfiguration
+
+d) @RestController
+
+---
+
+### Short Questions
+
+32. Explain application.properties.
+
+33. Explain Spring Boot Starter.
+
+---
+
+# Section G: Spring Data JPA (15 Marks)
+
+### MCQs
+
+34. Which interface provides CRUD operations?
+
+a) CrudRepository
+
+b) Repository
+
+c) JpaRepository
+
+d) Both A and C
+
+---
+
+35. Which annotation marks Entity?
+
+a) @Entity
+
+b) @Table
+
+c) @Column
+
+d) @Id
+
+---
+
+### Short Questions
+
+36. Difference between CrudRepository and JpaRepository.
+
+37. Explain findByName() method naming convention.
+
+38. What is @Query?
+
+39. Difference between save() and saveAll().
+
+40. Explain Pagination.
+
+---
+
+# Programming Questions - 20 Marks)
+
+### Q1
+
+Write a Java program to reverse a String.
+
+---
+
+### Q2
+
+Write a program to find duplicate elements in an Array.
+
+---
+
+### Q3
+
+Create an Employee class using OOP concepts.
+
+---
+
+### Q4
+
+Write JDBC code to insert a Student record.
+---
+=====================================================================================
+Scenario 1: Hospital Management
+
+tables===========
+
+Doctor
+-------
+id
+name
+specialization
+
+Patient
+--------
+id
+name
+age
+doctor_id
+
+requirements==============================
+
+Find patients by doctor name.
+Count total patients.
+Delete doctor safely.
+
+
+=============================================
+
+Scenario 2: E-Commerce Application
+
+Requirement
+
+Customer places orders.
+
+Tables
+
+Customer
+---------
+id
+name
+email
+
+Product
+--------
+id
+name
+price
+stock
+
+Order
+-----
+id
+date
+customer_id
+
+OrderItem
+---------
+id
+order_id
+product_id
+quantity
+
+reuirements 
+
+JPA Relationships
+One Customer → Many Orders
+One Order → Many OrderItems
+Many OrderItems → One Product
